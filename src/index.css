@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-dark-bg: #09090b;
+  --color-light-bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
